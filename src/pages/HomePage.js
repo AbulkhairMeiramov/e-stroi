@@ -69,11 +69,15 @@ export const HomePage = () => {
               justifyContent: "center",
               alignItems: "center",
               color: "#636363",
-              marginLeft: '35%',
-              marginTop: '10%'
+              marginLeft: "35%",
+              marginTop: "10%",
             }}
           >
-            <img style={{width: '271px'}} src="no-content.png" alt="no subcategory" />
+            <img
+              style={{ width: "271px" }}
+              src="no-content.png"
+              alt="no subcategory"
+            />
             <h1>Нет подкатегории</h1>
           </div>
         )}
