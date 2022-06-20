@@ -5,6 +5,7 @@ import { loadCategories } from "../store/actions/loadCategories";
 import { useSearchParams } from "react-router-dom";
 import { BreadCrumbs } from "../components/BreadCrumbs";
 import { Container } from "@mui/system";
+import { Slider } from "../components/Slider";
 
 function findNode(id, category) {
   if (category?.id + "" === id + "") {
@@ -58,6 +59,7 @@ export const HomePage = () => {
   return (
     <div>
       <Container>
+        <Slider />
         <div style={{ marginBottom: "20px", marginTop: "20px" }}>
           <BreadCrumbs links={links} />
         </div>
